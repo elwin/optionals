@@ -21,7 +21,7 @@ func someComputation(withResult bool) Optional[string] {
 }
 
 func main() {
-    someComputation(true).GetOrElse("default") // "hello-world"
+    someComputation(true).GetOrElse("default") // "hello world"
     
     someComputation(false).GetOrElse("default") // "default"
     
