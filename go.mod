@@ -1,4 +1,4 @@
-module optionals
+module github.com/elwin/optionals
 
 go 1.18
 
